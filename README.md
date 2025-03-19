@@ -123,7 +123,6 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
     <img src="https://img.shields.io/badge/GlobalAI%20Hub-Website-brightgreen?style=flat-square&logo=google-chrome" alt="GlobalAI Hub Website">
   </a>
 </p>
-s
 <p align="center">
   <em style="font-size: 14px; color: #555;">for their support and resources.</em>
 </p>
