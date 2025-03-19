@@ -84,3 +84,23 @@ sonuc = metro.en_hizli_rota_bul("M1", "K6")
 En az aktarmalı rota: AŞTİ -> Kızılay -> Şehitler -> Bağlum -> OSB -> TCDD -> Sincan
 En hızlı rota (42 dakika): AŞTİ -> Demirlibahçe -> Keçiören -> Bağlum -> OSB -> TCDD -> Sincan
 ```
+### Senaryo 2: Batıkent'ten Şehitler'e
+```
+rota = metro.en_az_aktarma_bul("T1", "T6")
+    if rota:
+        print("En az aktarmalı rota:", " -> ".join(i.ad for i in rota))
+        metro.metro_grafik(rota)
+    
+sonuc = metro.en_hizli_rota_bul("T1", "T6")
+    if sonuc:
+        rota, sure = sonuc
+        print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota))
+        metro.metro_grafik(rota)
+
+=== Senaryo 2 Sonucu ===
+
+2. Batıkent'ten Şehitler'e:
+En az aktarmalı rota: Batıkent -> Demetevler -> Gar -> Keçiören -> Bağlum -> Şehitler
+En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye -> Kızılay -> Şehitler
+```
+
