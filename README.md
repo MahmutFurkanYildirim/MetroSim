@@ -57,6 +57,8 @@ A algoritması*, daha verimli bir yol arama algoritmasıdır. A* algoritması, h
 - A* algoritması, her bir istasyon için toplam tahmin edilen süreyi hesaplar ve bu tahminlere göre en uygun istasyonu seçer.
 - Tahmini kalan mesafe h-cost olarak kabul edilir, ancak basit bir değer olarak şu anda 0 kabul edilmiştir.
 
+![README PNG](images/AstarAlg.png)
+
 ### Neden Bu Algoritmalar Tercih Edildi?
 
 - **BFS Algoritması**: Bu algoritma, her adımda tüm komşu istasyonları ziyaret ederek, en kısa aktarmalı rotayı bulmak için basit ama etkili bir yöntem sunar. Bu, aktarmalı rotalar için ideal bir algoritmadır.
