@@ -77,4 +77,10 @@ sonuc = metro.en_hizli_rota_bul("M1", "K6")
         rota, sure = sonuc
         print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota))
         metro.metro_grafik(rota)
+
+=== Test Senaryoları ===
+
+1. AŞTİ'den Sincan'a:
+En az aktarmalı rota: AŞTİ -> Kızılay -> Şehitler -> Bağlum -> OSB -> TCDD -> Sincan
+En hızlı rota (42 dakika): AŞTİ -> Demirlibahçe -> Keçiören -> Bağlum -> OSB -> TCDD -> Sincan
 ```
