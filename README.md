@@ -88,10 +88,10 @@ sonuc = metro.en_hizli_rota_bul("M1", "K6")
 En az aktarmalı rota: AŞTİ -> Kızılay -> Şehitler -> Bağlum -> OSB -> TCDD -> Sincan
 En hızlı rota (42 dakika): AŞTİ -> Demirlibahçe -> Keçiören -> Bağlum -> OSB -> TCDD -> Sincan
 ```
-### _En az aktarmalı rota_
+### _En Az Aktarmalı Rota_
 ![README PNG](images/senaryo1.png)
 ---
-### _En hızlı rota_
+### _En Hızlı Rota_
 ![README PNG](images/senaryo1_1.png)
 
 
@@ -114,10 +114,10 @@ sonuc = metro.en_hizli_rota_bul("T1", "T6")
 En az aktarmalı rota: Batıkent -> Demetevler -> Gar -> Keçiören -> Bağlum -> Şehitler
 En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye -> Kızılay -> Şehitler
 ```
-### _En az aktarmalı rota_
+### _En Az Aktarmalı Rota_
 ![README PNG](images/senaryo2.png)
 ---
-### _En hızlı rota_
+### _En Hızlı Rota_
 ![README PNG](images/senaryo2_2.png)
 
 ## Projeyi Geliştirme Fikirleri
