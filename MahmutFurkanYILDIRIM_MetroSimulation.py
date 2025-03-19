@@ -1,6 +1,6 @@
 from collections import defaultdict, deque
 import heapq
-from typing import Dict, List, Set, Tuple, Optional
+from typing import Dict, List, Tuple, Optional
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -36,22 +36,27 @@ class MetroAgi:
         istasyon2.komsu_ekle(istasyon1, sure)
 
     def metro_grafik(self, rota=None):
-        # Burada 'self' kullanarak metro nesnesine erişebilirsiniz
+        # Bir grafik nesnesi oluştur
         G = nx.Graph()
         
         # Metro'yu ve bağlantılarını ekle
         for istasyon in self.istasyonlar.values():
             for komsu, _ in istasyon.komsular:
-                G.add_edge(istasyon.ad, komsu.ad)
+                G.add_edge(istasyon.ad, komsu.ad)  # İstasyonlar arası bağlantıları çiz
         
+        # Grafiğin düzenini belirle (Kamada-Kawai düzeni)
         pos = nx.kamada_kawai_layout(G)
+        # Grafik boyutunu ayarla
         plt.figure(figsize=(10, 6))
+        # Grafiği çiz, düğümler (istasyonlar) açık mavi, kenarlar gri olacak şekilde ayarlanır
         nx.draw(G, pos, with_labels=True, node_color='lightblue', edge_color='gray', node_size=2000, font_size=10)
         
+         # Eğer bir rota verilmişse, rota üzerindeki kenarları kırmızı renkle belirginleştir
         if rota:
-            rota_edges = [(rota[i].ad, rota[i+1].ad) for i in range(len(rota)-1)]
+            rota_edges = [(rota[i].ad, rota[i+1].ad) for i in range(len(rota)-1)] # Rotayı oluşturan kenarlar
             nx.draw_networkx_edges(G, pos, edgelist=rota_edges, edge_color='red', width=2)
         
+        # Grafiği göster
         plt.show()
     
     def en_az_aktarma_bul(self, baslangic_id: str, hedef_id: str) -> Optional[List[Istasyon]]:
