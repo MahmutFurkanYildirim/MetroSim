@@ -135,6 +135,10 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
   <a href="https://github.com/MahmutFurkanYildirim" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-MahmutFurkanYildirim-blue?style=flat-square&logo=github" alt="GitHub Badge">
   </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/furkany%C4%B1ld%C4%B1r%C4%B1m9/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-MahmutFurkanYildirim-blue?style=flat-square&logo=linkedin" alt="LinkedIn Badge">
+  </a>
 </p>
 
 <p align="center">
