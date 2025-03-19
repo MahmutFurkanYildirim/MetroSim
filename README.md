@@ -40,3 +40,10 @@ Proje, BFS (Breadth-First Search) ve A* algoritmalarını kullanarak bu hesaplam
 ## Algoritmaların Çalışma Mantığı
 ---
 ## _BFS Algoritması_
+
+BFS (Breadth-First Search), yani Genişlik-Öncelikli Arama, bir graf veya ağaç üzerinde yapılan, belirli bir başlangıç noktasından başlayarak, tüm düğümlere (ya da nodlara) ulaşmayı amaçlayan bir arama algoritmasıdır. BFS, sırasıyla komşu düğümlere (yani, aynı seviyede olan düğümlere) ulaşır ve her seviye tamamlandıkça bir sonraki seviyeye geçer.
+
+# Nasıl Çalışır?
+- Başlangıç istasyonunu kuyruğa ekleriz.
+- Kuyruk boşalana kadar, her bir istasyonun komşularına giderek, her adımda en az aktarma yaparak hedefe ulaşmaya çalışırız.
+- İlk hedefe ulaşıldığında, en az aktarmalı rota bulunmuş olur.
