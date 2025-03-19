@@ -36,4 +36,5 @@ Proje, BFS (Breadth-First Search) ve A* algoritmalarını kullanarak bu hesaplam
     else:
         print("Değer sağlanmadı")
     ```
+---
 ## Algoritmaların Çalışma Mantığı
