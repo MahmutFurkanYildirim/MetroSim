@@ -110,3 +110,32 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
 
 - Farklı Grafikleri Destekleme: Metro ağının daha farklı görselleştirme teknikleriyle sunulması, kullanıcı deneyimini geliştirebilir.
 
+---
+
+<h2 align="center">Special Thanks</h2>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/rumeysa-bakar-789b311b3/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="Rumeysa Bakar">
+  </a>
+  &nbsp;
+  <a href="https://www.globalaihub.com/">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60-2nN7DUUEnicvyYjuo0mSTZlrSRuA6IaQ&s" alt="GlobalAI Hub">
+  </a>
+</p>
+
+<p align="center">
+  <em>for their support and resources.</em>
+</p>
+
+---
+<h2 align="center">Development and Editing by Mahmut Furkan YILDIRIM</h2>
+
+<p align="center">
+  <a href="https://github.com/MahmutFurkanYildirim">
+    <img src="https://img.shields.io/badge/GitHub-MahmutFurkanYildirim-blue?style=flat-square&logo=github" alt="GitHub Badge">
+  </a>
+</p>
+
+---
+
