@@ -116,11 +116,11 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
 
 <p align="center">
   <a href="https://www.linkedin.com/in/rumeysa-bakar-789b311b3/">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="Rumeysa Bakar">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png" alt="Rumeysa Bakar" width="100">
   </a>
   &nbsp;
   <a href="https://www.globalaihub.com/">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60-2nN7DUUEnicvyYjuo0mSTZlrSRuA6IaQ&s" alt="GlobalAI Hub">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60-2nN7DUUEnicvyYjuo0mSTZlrSRuA6IaQ&s" alt="GlobalAI Hub" width="100">
   </a>
 </p>
 
