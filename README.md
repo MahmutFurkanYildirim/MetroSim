@@ -62,3 +62,19 @@ A algoritması*, daha verimli bir yol arama algoritmasıdır. A* algoritması, h
 - **BFS Algoritması**: Bu algoritma, her adımda tüm komşu istasyonları ziyaret ederek, en kısa aktarmalı rotayı bulmak için basit ama etkili bir yöntem sunar. Bu, aktarmalı rotalar için ideal bir algoritmadır.
 
 - **A star Algoritması**: Bu algoritma, özellikle daha hızlı rotalar arandığında çok etkilidir. Hedefe olan tahmini mesafeyi dikkate alarak daha kısa sürede optimal rotayı bulmamıza yardımcı olur.
+---
+## Örnek Kullanım ve Test Sonuçları
+
+### Senaryo 1: AŞTİ'den Sincan'a
+```
+rota = metro.en_az_aktarma_bul("M1", "K6")
+    if rota:
+        print("En az aktarmalı rota:", " -> ".join(i.ad for i in rota))
+        metro.metro_grafik(rota)
+
+sonuc = metro.en_hizli_rota_bul("M1", "K6")
+    if sonuc:
+        rota, sure = sonuc
+        print(f"En hızlı rota ({sure} dakika):", " -> ".join(i.ad for i in rota))
+        metro.metro_grafik(rota)
+```
