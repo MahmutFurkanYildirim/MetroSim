@@ -120,7 +120,7 @@ class MetroAgi:
         # Öncelik kuyruğu boş olana kadar devam et
         while oncelik_kuyrugu:
             # En düşük tahmini süreye sahip elemanı kuyruktan çıkar
-            toplam_sure, id_istasyon, aktif_istasyon, rota, toplam_tahmini_sure = heapq.heappop(oncelik_kuyrugu)
+            toplam_sure, komsu, aktif_istasyon, rota, toplam_tahmini_sure = heapq.heappop(oncelik_kuyrugu)
 
             # Eğer hedefe ulaştıysak, rotayı ve toplam süreyi döndür
             if aktif_istasyon == hedef:
@@ -133,12 +133,12 @@ class MetroAgi:
             ziyaret_edildi[aktif_istasyon] = toplam_sure
 
             # Aktif istasyonun tüm komşularını kontrol et
-            for id_istasyon, gecis_suresi in aktif_istasyon.komsular:
+            for komsu, gecis_suresi in aktif_istasyon.komsular:
                 # Komşuya ulaşma süresini hesapla
                 toplam_tahmini_sure = toplam_sure + gecis_suresi
 
                 # Eğer komşuya daha önce daha kısa bir sürede ulaştıysak, bu yolu atla
-                if id_istasyon in ziyaret_edildi and ziyaret_edildi[id_istasyon] <= toplam_tahmini_sure:
+                if komsu in ziyaret_edildi and ziyaret_edildi[komsu] <= toplam_tahmini_sure:
                     continue
 
                 # Hedefe olan tahmini kalan süreyi hesapla (heuristik)
@@ -148,10 +148,10 @@ class MetroAgi:
                 toplam_tahmini = toplam_tahmini_sure + tahmini_kalan
 
                  # Yeni rotayı oluştur (mevcut rota + komşu istasyon)
-                yeni_rota = rota + [id_istasyon]
+                yeni_rota = rota + [komsu]
 
                 # Yeni durumu öncelik kuyruğuna ekle
-                heapq.heappush(oncelik_kuyrugu, (toplam_tahmini, id(id_istasyon), id_istasyon, yeni_rota, toplam_tahmini_sure))
+                heapq.heappush(oncelik_kuyrugu, (toplam_tahmini, id(komsu), komsu, yeni_rota, toplam_tahmini_sure))
         # Eğer hedef istasyona ulaşan bir rota bulunamazsa None döndür
         return None
                 
