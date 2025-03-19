@@ -38,3 +38,5 @@ Proje, BFS (Breadth-First Search) ve A* algoritmalarını kullanarak bu hesaplam
     ```
 ---
 ## Algoritmaların Çalışma Mantığı
+---
+## _BFS Algoritması_
