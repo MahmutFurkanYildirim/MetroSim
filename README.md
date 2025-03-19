@@ -115,17 +115,17 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
 <h2 align="center">Special Thanks</h2>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/rumeysa-bakar-789b311b3/">
-    <img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/4-1.png" alt="Rumeysa Bakar Linkedin" width="40">
+  <a href="https://www.linkedin.com/in/rumeysa-bakar-789b311b3/" target="_blank">
+    <img src="https://blog.waalaxy.com/wp-content/uploads/2021/01/4-1.png" alt="Rumeysa Bakar Linkedin" width="50" height="50">
   </a>
   &nbsp;
-  <a href="https://www.globalaihub.com/">
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60-2nN7DUUEnicvyYjuo0mSTZlrSRuA6IaQ&s" alt="GlobalAI Hub Website" width="40">
+  <a href="https://www.globalaihub.com/" target="_blank">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT60-2nN7DUUEnicvyYjuo0mSTZlrSRuA6IaQ&s" alt="GlobalAIHub Website" width="50" height="50">
   </a>
 </p>
 
 <p align="center">
-  <em>for their support and resources.</em>
+  <em style="font-size: 14px; color: #555;">for their support and resources.</em>
 </p>
 
 ---
@@ -133,9 +133,13 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
 <h2 align="center">Development and Editing by Mahmut Furkan YILDIRIM</h2>
 
 <p align="center">
-  <a href="https://github.com/MahmutFurkanYildirim">
+  <a href="https://github.com/MahmutFurkanYildirim" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-MahmutFurkanYildirim-blue?style=flat-square&logo=github" alt="GitHub Badge">
   </a>
+</p>
+
+<p align="center">
+  <em style="font-size: 14px; color: #555;">Thank you for checking this project.</em>
 </p>
 
 ---
