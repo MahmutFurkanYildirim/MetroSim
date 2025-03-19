@@ -124,7 +124,7 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
 
 ---
 
-<h2 align="center">Special Thanks</h2>
+<h2 align="center">Özel Teşekkür</h2>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/rumeysa-bakar-789b311b3/" target="_blank">
@@ -136,12 +136,12 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
   </a>
 </p>
 <p align="center">
-  <em style="font-size: 14px; color: #555;">for their support and resources.</em>
+  <em style="font-size: 14px; color: #555;">Destekleri ve sağladıkları kaynaklar için teşekkürler.</em>
 </p>
 
 ---
 
-<h2 align="center">Development and Editing by Mahmut Furkan YILDIRIM</h2>
+<h2 align="center">Geliştirme ve Düzenleme: Mahmut Furkan YILDIRIM</h2>
 
 <p align="center">
   <a href="https://github.com/MahmutFurkanYildirim" target="_blank">
@@ -154,7 +154,7 @@ En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye ->
 </p>
 
 <p align="center">
-  <em style="font-size: 14px; color: #555;">Thank you for checking this project.</em>
+  <em style="font-size: 14px; color: #555;">Bu projeyi incelediğiniz için teşekkürler.</em>
 </p>
 
 ---
