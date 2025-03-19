@@ -104,3 +104,9 @@ En az aktarmalı rota: Batıkent -> Demetevler -> Gar -> Keçiören -> Bağlum -
 En hızlı rota (26 dakika): Batıkent -> Tandoğan -> Gar -> Gar -> Sıhhiye -> Kızılay -> Şehitler
 ```
 
+## Projeyi Geliştirme Fikirleri
+
+- Gerçek Zamanlı Veriler: Gerçek zamanlı metro bilgileri (örneğin, gecikmeler ve duraklar) eklenebilir ve A* algoritması buna göre dinamik olarak rotaları güncelleyebilir.
+
+- Farklı Grafikleri Destekleme: Metro ağının daha farklı görselleştirme teknikleriyle sunulması, kullanıcı deneyimini geliştirebilir.
+
