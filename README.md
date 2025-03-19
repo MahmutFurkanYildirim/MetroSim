@@ -49,7 +49,7 @@ BFS (Breadth-First Search), yani Genişlik-Öncelikli Arama, bir graf veya ağa�
 - İlk hedefe ulaşıldığında, en az aktarmalı rota bulunmuş olur.
 
 ![README PNG](images/BFS.png)
----
+
 ## _A* Algoritması_
 
 A algoritması*, daha verimli bir yol arama algoritmasıdır. A* algoritması, her bir adımda hem toplam yol uzunluğunu (g-cost) hem de hedefe olan tahmini mesafeyi (h-cost) kullanarak, en kısa ve en hızlı rotayı bulur.
