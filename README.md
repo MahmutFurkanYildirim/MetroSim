@@ -1,4 +1,4 @@
-## Metro Rota Simulasyonu
+# Metro Rota Simulasyonu
 ---
 Proje
 ---
@@ -47,3 +47,18 @@ BFS (Breadth-First Search), yani Genişlik-Öncelikli Arama, bir graf veya ağa�
 - Başlangıç istasyonunu kuyruğa ekleriz.
 - Kuyruk boşalana kadar, her bir istasyonun komşularına giderek, her adımda en az aktarma yaparak hedefe ulaşmaya çalışırız.
 - İlk hedefe ulaşıldığında, en az aktarmalı rota bulunmuş olur.
+
+## _A* Algoritması_
+
+A algoritması*, daha verimli bir yol arama algoritmasıdır. A* algoritması, her bir adımda hem toplam yol uzunluğunu (g-cost) hem de hedefe olan tahmini mesafeyi (h-cost) kullanarak, en kısa ve en hızlı rotayı bulur.
+
+### Nasıl Çalışır?
+- Başlangıç istasyonundan hedefe kadar olan yol, her adımda hedefe en yakın istasyonları seçerek ilerler.
+- A* algoritması, her bir istasyon için toplam tahmin edilen süreyi hesaplar ve bu tahminlere göre en uygun istasyonu seçer.
+- Tahmini kalan mesafe h-cost olarak kabul edilir, ancak basit bir değer olarak şu anda 0 kabul edilmiştir.
+
+### Neden Bu Algoritmalar Tercih Edildi?
+
+- **BFS Algoritması**: Bu algoritma, her adımda tüm komşu istasyonları ziyaret ederek, en kısa aktarmalı rotayı bulmak için basit ama etkili bir yöntem sunar. Bu, aktarmalı rotalar için ideal bir algoritmadır.
+
+- **A* Algoritması**: Bu algoritma, özellikle daha hızlı rotalar arandığında çok etkilidir. Hedefe olan tahmini mesafeyi dikkate alarak daha kısa sürede optimal rotayı bulmamıza yardımcı olur.
