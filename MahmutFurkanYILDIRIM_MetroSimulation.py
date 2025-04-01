@@ -41,8 +41,8 @@ class MetroAgi:
         
         # Metro'yu ve bağlantılarını ekle
         for istasyon in self.istasyonlar.values():
-            for komsu, _ in istasyon.komsular:
-                G.add_edge(istasyon.ad, komsu.ad)  # İstasyonlar arası bağlantıları çiz
+            for komsu_istasyon, _ in istasyon.komsular:
+                G.add_edge(istasyon.ad, komsu_istasyon.ad)  # İstasyonlar arası bağlantıları çiz
         
         # Grafiğin düzenini belirle (Kamada-Kawai düzeni)
         pos = nx.kamada_kawai_layout(G)
